@@ -1,0 +1,96 @@
+/* body {
+  background-color: #ee4e4e;
+} */
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+/* HEADER SECTION */
+section {
+  background-color: black;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  /* background-color: black; */
+}
+.headerpart1 {
+  display: flex;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+  padding-left: 45px;
+}
+.headerpart1 img {
+  padding-left: 40px;
+  height: 40px;
+}
+.navigation li {
+  color: #fff;
+}
+.headerButton {
+  padding-right: 20px;
+}
+.headerButton button {
+  font-size: 16px;
+  padding: 5px 10px;
+  background-color: rgb(223, 22, 230);
+  border-radius: 8px;
+  font-family: "Poppins";
+}
+/* HERO SECTION */
+.Hero {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* justify-content: center; */
+  padding-top: 200px;
+
+  height: 91.5vh;
+}
+/* second button */
+.HeroButton button {
+  background-color: rgb(223, 22, 230);
+  border: none;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  padding: 14px 15px;
+  border-radius: 10px;
+  animation-name: colorchange;
+  animation-duration: 4s;
+  animation-delay: 2s;
+}
+@keyframes colorchange {
+  from {
+    background-color: rgb(223, 22, 230);
+  }
+  to {
+    background-color: yellow;
+  }
+}
+.HeroButton {
+  margin-top: 30px;
+}
+.HeroSection h1 {
+  font-size: 60px;
+  font-weight: bold;
+  font-family: "Poppins";
+  color: #fff;
+  line-height: 60px;
+  padding-bottom: 10px;
+}
+.Hero .HeroSection p {
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+  padding-top: 10px;
+}
